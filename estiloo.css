@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(150deg,rgb(247, 244, 244),#eb1308);
+    
+    height: 100vh;
+ }
+/*************************/
+/*         HEADER        */
+/*************************/  
+.navegador{
+    float: right;
+    margin-right: 4px;
+}
+
+.header{
+    height: 50px;
+    max-width: 100%;
+    /*background-color: #eb1308;*/
+    display: block;
+    border-bottom: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+.bx{
+    font-size: 18px;
+}
+
+.bx bx-envelope-phone{
+    font-size: 25px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    float:left;
+}
+
+/*************************/
+/*         INICIO        */
+/*************************/    
+h1{
+    text-align: center;
+    height: 20vh;
+}
+
+.titulo-repara-calderas{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: grey 3px 3px;
+    opacity: 1;
+}
+
+.titulo-clie{
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 2em;
+}
+
+.nuestros-clientes{
+    align-content: center;
+}
+
+.tabla-clientes{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    transform: translateY(20px); /* La imagen se desplaza hacia abajo */
+    
+}
+
+.img{
+    width: 350px;   
+}
+
+.contenedor-clie{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+a{
+    color:black;
+}
+
+/*.card-img2{
+    width: 200px;
+    height: 100px;
+}*/
+
+
+
+/*************************/
+/*    INICIAR SESIÓN     */
+/*************************/
+.formulario{
+    /*position: absolute;/************/
+    margin: 0 auto; 
+    top: 50px;
+    left: 50px;
+    transform: translate(0%, 20%);
+    width: 100px;
+    background: white;
+    border-radius: 10px ;
+    border: 1px solid #eb1308;
+    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.2);
+    width: 35% ;
+}
+
+.formulario h1{
+    text-align: center;
+    padding:  0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .usercon{
+    position:relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 10px;
+}
+
+.usercon input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border:none;
+    background: none;
+    outline: none;
+}
+
+.usercon label{
+    position:absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translate(50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.usercon span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: red;
+    transition: .5s;
+}
+
+.usercon input:focus ~ label
+.usercon input:focus ~ label{
+top: -5px;
+color: #eb1308;
+}
+
+
+.usercon input:focus ~ span::before,
+.usercon input:focus ~ span::before{
+    width: 100%;
+}
+
+.olvidecontra{
+    margin: -5px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.olvidecontra:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width: 100%;
+    /*height: 60%;*/
+    border: 2px solid #eb1308;
+    background:  #f7574f;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.registrarse{
+    margin: 30px 0;
+    text-align: center ;
+    font-size: 16px;
+    color: black;
+}
+
+.registrarse a{
+    color:blue;
+    text-decoration: none;
+}
+
+.registrarse a:hover{
+    text-decoration: underline;
+}
+
+
+/*************************/
+/*       REGISTRO        */
+/*************************/
+.registro-user{
+    
+}
+
+/*************************/
+/*          FOOTER       */
+/*************************/
+.piedepag{
+    background-color: purple;
+    padding: 1em 0;
+    text-align: center;
+    /*margin-top: auto;*/
+}
+
+.copy-footer{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;    
+}
+
+.footer-contacto{
+    background-color: #f7574f;  
+    height: 10vh;
+    text-align: center; 
+}
+
