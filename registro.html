@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8"> 
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Registro</title>
-    <link rel="icon" href="logoCR.jpg">
+	<link rel="icon" href="logoCR.jpg">
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="estiloo.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
+
 <body>
-    <header class="header">
+	<header class="header">
 		<nav class="navegador">
 			<ul>
 				<li>
-					<a href="index.html"><i class='bx bx-home-smile' ></i>HOME</a>
+					<a href="index.html"><i class='bx bx-home-smile'></i>HOME</a>
 				</li>
 				<li>
 					<a href="servtecnico.html"><i class='bx bx-plug'></i>SERVICIO TÉCNICO</a>
@@ -29,26 +31,46 @@
 			</ul>
 		</nav>
 	</header>
-	
-	<h1> BIENVENIDO </h1>
-		<div class="registro-user">
-			<p>Si todavía no tenés un usuario registrate</p>
 
-			<button class="btn-registro">Crear usuario</button>
-			<button class="btn-cancelar">Cancelar registro</button>
+	<div class="formulario">
+		<form action="" class="formregis">
+			<h2>Registrarse</h2>
+				<div class="datosreg">
+					<div class="nombre">
+						<label for="">Nombre completo</label>
+						<input type="text">
+					</div>
+					<div class="correo">
+						<label for="">Correo</label>
+						<input type="Email">
+					</div>
+					<div class="correo">
+						<label for="">Usuario</label>
+						<input type="text">
+					</div>
+					<div class="clave">
+						<label for="">Contraseña</label>
+						<input type="password">
+					</div>
+
+					<div class="ytcuenta">
+						<p>Si ya tenés una cuenta haz click <a href="inicio.html">aqui<i class='bx bx-edit-alt'></i></a></p>
+						<button class="btn-registro">Crear usuario</button>
+					</div>
+				</div>
+		</form>
+	</div>
+
+	<div class="registro-user">
+		<button class="btn-registro">Crear usuario</button>
+		<button class="btn-cancelar">Cancelar registro</button>
+	</div>
+
+	<footer class="piedepag">
+		<div class="copy-footer">
+			<p>&copy;Reparación de Calderas 2023</p>
 		</div>
-
-		<footer class="piedepag">
-			<div class="footer-contacto">
-				<p><b>CONTÁCTANOS</b></p>
-	
-				<a href="tel:351152480679"><i class='bx bx-phone-call'></i>351 15 248 0679</a>
-	
-				<a href="mailto:gzcalefaccion@gmail.com"><i class='bx bx-envelope-phone'></i>GZCALEFACCION@GMAIL.COM</a>
-			</div>
-			<div class="copy-footer">
-				<p>&copy;Reparación de Calderas 2023</p>
-			</div>
-		</footer>
+	</footer>
 </body>
+
 </html>
