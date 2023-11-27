@@ -25,45 +25,48 @@
 				<li>
 					<a href="servtecnico.html"><i class='bx bx-plug'></i>SERVICIO TÉCNICO</a>
 				</li>
-				<li>
-					<a href="inicio.html"><i class='bx bx-log-in-circle'></i>INICIAR SESIÓN</a>
-				</li>
 			</ul>
 		</nav>
 	</header>
 
 	<div class="formulario">
 		<form action="" class="formregis">
-			<h2>Registrarse</h2>
-				<div class="datosreg">
-					<div class="nombre">
-						<label for="">Nombre completo</label>
-						<input type="text">
-					</div>
-					<div class="correo">
-						<label for="">Correo</label>
-						<input type="Email">
-					</div>
-					<div class="correo">
-						<label for="">Usuario</label>
-						<input type="text">
-					</div>
-					<div class="clave">
-						<label for="">Contraseña</label>
-						<input type="password">
-					</div>
+			<h1>Registrarse</h1>
+			<div class="datosreg">
 
-					<div class="ytcuenta">
-						<p>Si ya tenés una cuenta haz click <a href="inicio.html">aqui<i class='bx bx-edit-alt'></i></a></p>
-						<button class="btn-registro">Crear usuario</button>
-					</div>
+				<div class="nombre">
+					<label for="">Nombre completo</label>
+					<input type="nombre" id="nombre" placeholder= *>
 				</div>
-		</form>
-	</div>
+				<div class="direc">
+					<label for="direc">Dirección</label>
+					<input type="text" id="direc" name="direc" placeholder=*>
+				</div>
+				<div class="telefono">
+					<label for="telefono">Número de Teléfono</label>
+					<input type="tel" id="tel" name="tel" placeholder= *>
+				</div>
+				<div class="correo">
+					<label for="">Correo</label>
+					<input type="correo" id="correo" required placeholder= *>
+				</div>				
+				<div class="usuario">
+					<label for="">Usuario</label>
+					<input type="usuario" id="usuario" required placeholder= *>
+				</div>
+				<div class="clave">
+					<label for="">Contraseña</label>
+					<input type="password" id="password" required placeholder= *>
+				</div>
 
-	<div class="registro-user">
-		<button class="btn-registro">Crear usuario</button>
-		<button class="btn-cancelar">Cancelar registro</button>
+				<div class="yatengocuenta">
+					<p>Si ya tenés una cuenta haz click <a href="inicio.html">aqui<i class='bx bx-edit-alt'></i></a></p>
+					
+					<input type="submit" value="Crear usuario">
+					
+				</div>
+			</div>
+		</form>
 	</div>
 
 	<footer class="piedepag">
